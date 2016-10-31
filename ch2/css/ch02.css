@@ -1,0 +1,32 @@
+body {
+  background-image: url("../images/flowers.jpeg");
+  background-size: cover;
+}
+
+#heading {
+  height: 100px;
+}
+
+.message {
+    font-weight: bold;
+    line-height: 1.5em;
+    height: 2em;
+    display: block;
+    clear: left;
+    min-width: 10em;}
+
+.true, .false {
+    background: url("../images/tick-cross.png");
+    display: block;
+    float:right;
+    height: 25px;
+    width: 25px;}
+.false {
+    background-position: 0 -25px;}
+
+h1,.message {
+  color: white;
+  font-family: monospace;
+  font-weight: lighter;
+  float: left;
+}
